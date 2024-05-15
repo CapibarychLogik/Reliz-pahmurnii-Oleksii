@@ -1,0 +1,94 @@
+body {
+    font-family: sans-serif;
+}
+
+header {
+    background-color: rgb(255, 213, 0);
+    padding: 20px;
+    width: 100%;
+}
+
+header a {
+    color: black;
+    background-color: white;
+    font-size: 20px;
+    text-decoration: none;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 30px;
+}
+
+header img {
+    width: 80px;
+    height: 60px;
+}
+
+.sp_button {
+    background-color: #ffffff;
+    border: 1px solid #000000;
+}
+
+h1 {
+    text-align: center;
+    font-size: 60px;
+    font-weight: normal;
+    border-bottom: 2px solid navy;
+    padding-bottom: 5px;
+    width: 100%;
+}
+
+h2 {
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    padding: 10px;
+    margin-bottom: 50px;
+}
+
+.posts {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    height: 350px;
+}
+
+article {
+    font-size: 20px;
+    padding: 20px;
+    width: 800px;
+    margin: 20px;
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 15px;
+    text-align: center;
+}
+
+article img {
+    height: 159px;
+    width: 200px;
+}
+
+article:hover {
+    box-shadow: 0 5px 5px 5px rgb(219, 180, 3);
+}
+
+.page {
+    width: 1px;
+    position: absolute;
+}
+
+.nb_news {
+    background-color: navy;
+    color: white;
+}
+
+footer {
+    background-color: #ffbc02;
+    padding: 10px;
+    width: 100%;
+}
+
+footer p {
+    background-color: white;
+    padding: 5px;
+}
