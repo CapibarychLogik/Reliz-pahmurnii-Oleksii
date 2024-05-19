@@ -1,11 +1,12 @@
 body {
     font-family: sans-serif;
+   background-color: #fff9c4;
 }
 
 header {
     background-color: rgb(255, 213, 0);
     padding: 20px;
-    width: 100%;
+    width: 1100px;
 }
 
 header a {
@@ -35,11 +36,10 @@ h1 {
     font-weight: normal;
     border-bottom: 2px solid navy;
     padding-bottom: 5px;
-    width: 100%;
+    width: 1100px;
 }
 
 h2 {
-    text-align: center;
     color: rgb(0, 0, 0);
     font-size: 30px;
     padding: 10px;
@@ -49,7 +49,7 @@ h2 {
 .posts {
     display: flex;
     justify-content: space-around;
-    width: 100%;
+    width: 100px;
     height: 350px;
 }
 
@@ -69,7 +69,7 @@ article img {
 }
 
 article:hover {
-    box-shadow: 0 5px 5px 5px rgb(219, 180, 3);
+    box-shadow: 0 5px 5px 5px rgb(246, 234, 0);
 }
 
 .page {
@@ -85,7 +85,7 @@ article:hover {
 footer {
     background-color: #ffbc02;
     padding: 10px;
-    width: 100%;
+    width: 1100px;
 }
 
 footer p {
